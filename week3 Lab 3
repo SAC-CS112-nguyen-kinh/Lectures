@@ -1,0 +1,8 @@
+public class Myname {
+	public static void main(String[] args)
+	
+	{
+		System.out.print ("Hello\nMy name is Kinh");
+		
+
+}}
