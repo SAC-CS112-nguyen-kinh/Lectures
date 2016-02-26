@@ -1,0 +1,17 @@
+public class wk3lab6
+{
+		
+
+	public static void main(String [] args)
+{		
+		int x,y,a,b,c,d;
+	System.out.println("enter 2 integers:  ");
+	Scanner in = new Scanner(System.in);
+	x = in.nextInt();
+	y = in.nextInt();
+	a = x + y;
+	b = x - y;
+	c = x * y;
+	d = x / y;
+	System.out.printf("Sum = %d\nDifference = %d\nProduct = %d\nQuotient = %d",a,b,c,d);
+}}
