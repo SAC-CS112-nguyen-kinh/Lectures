@@ -1,0 +1,16 @@
+public class wk3lab4
+{
+		
+
+	public static void main(String [] args)
+{		
+	
+        String x = "Hello, ";
+	String y = "world!";
+System.out.printf("Kinh %s%s",x,y);
+		
+                 
+
+	}
+
+}
