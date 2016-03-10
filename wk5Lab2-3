@@ -8,7 +8,7 @@ public class wk5Lab2
 	
 	int hungry;
 	int thirsty;
-	
+	int breakfast;
 	
 	
 		
@@ -19,9 +19,14 @@ public class wk5Lab2
 			System.out.println(" Thirsty? yes = 1; no =0");
 			thirsty = in.nextInt();
 			if ( thirsty ==1)
-			{	System.out.println(" Here is a coke"); 	
-				System.out.println("eat lunch,return tray and leave.");		
-			}
+			{	System.out.println(" did you have breakfast?");
+				breakfast = in.nextInt();
+				if (breakfast == 1)
+					System.out.println(" here is diet coke");
+				else
+					System.out.println(" here is regular coke. \n eat lunch,return tray and leave.");
+			}	 
+			
 			else
 				System.out.println("Here is a bottle of water.\n eat lunch,return tray and leave.");
 		}	
