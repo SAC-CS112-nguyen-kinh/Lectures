@@ -1,0 +1,45 @@
+
+import java.util.Scanner;
+
+public class wk5Lab7
+{
+	public static void main (String [] args)
+{
+	Scanner in =new Scanner(System.in);
+	
+
+		
+		
+	int x;
+	int guess;
+	int max;
+
+		System.out.println("Guess a number:  ");
+		guess = in.nextInt();
+	if ( guess >9 || guess <0 )
+		{	System.out.println (" invalid number. program crashes.");
+			System.exit(0);
+		}		
+		x =0 + (int) (Math.random() *10);
+		System.out.println(x);		
+
+
+	//if ( x == guess)
+		//System.out.println("You guessed it right.");
+	
+	//else if ( x< guess)
+		//System.out.println("Too large");
+			
+	//else 
+		//System.out.println("Too small");
+	
+	max = (x > guess) ? x : guess;
+		System.out.println(" the max number is: " + max);
+
+
+
+
+
+}
+
+}
