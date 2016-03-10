@@ -16,7 +16,7 @@ public class wk5Lab2
 		hungry = in.nextInt();
 		if ( hungry == 1)
 		{	System.out.println("get in line and buy lunch");
-			System.out.println(" Thirsty?");
+			System.out.println(" Thirsty? yes = 1; no =0");
 			thirsty = in.nextInt();
 			if ( thirsty ==1)
 			{	System.out.println(" Here is a coke"); 	
