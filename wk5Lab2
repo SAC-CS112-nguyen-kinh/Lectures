@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class wk5Lab2
+{
+	public static void main(String[] args)
+{
+	Scanner in = new Scanner(System.in);
+	
+	int hungry;
+	int thirsty;
+	
+	
+	
+		
+		System.out.println("Hungry?");
+		hungry = in.nextInt();
+		if ( hungry == 1)
+		{	System.out.println("get in line and buy lunch");
+			System.out.println(" Thirsty?");
+			thirsty = in.nextInt();
+			if ( thirsty ==1)
+			{	System.out.println(" Here is a coke"); 	
+				System.out.println("eat lunch,return tray and leave.");		
+			}
+			else
+				System.out.println("Here is a bottle of water.\n eat lunch,return tray and leave.");
+		}	
+		else
+			System.out.println("Leave the cafe");
+
+		
+
+}
+	
+
+
+}
