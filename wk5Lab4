@@ -15,6 +15,11 @@ public class guessNumbers
 
 		System.out.println("Guess a number:  ");
 		guess = in.nextInt();
+		if ( guess <0 || guess > 9)
+		{
+			System.out.println("Invalid number.  Crash");
+			System.exit(0);
+		}
 	
 		x =0 + (int) (Math.random() *10);
 		System.out.println(x);		
