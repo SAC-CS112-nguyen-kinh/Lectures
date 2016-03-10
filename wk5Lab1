@@ -6,11 +6,11 @@ public class wk5Lab1{
 	public static void main(String [] args){
 
 	Scanner input = new Scanner(System.in);
-	int Thirsty;
+	int thirsty;
 		System.out.println("Thirsty?");
-		user = input.nextInt();
+		thirsty = input.nextInt();
 	
-		if (Thirsty == 1)
+		if (thirsty == 1)
 			System.out.println("Here is a can of coke");
 		else
 			System.out.println("No im not thirsty");
