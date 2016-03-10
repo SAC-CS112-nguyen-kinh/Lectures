@@ -1,0 +1,34 @@
+
+import java.util.Scanner;
+
+public class guessNumbers
+{
+	public static void main (String [] args)
+{
+	Scanner in =new Scanner(System.in);
+	
+
+		
+		
+	int x;
+	int guess;
+
+		System.out.println("Guess a number:  ");
+		guess = in.nextInt();
+	
+		x =0 + (int) (Math.random() *10);
+		System.out.println(x);		
+
+
+	if ( x== guess)
+		System.out.println("You guessed it right.");
+	if ( x< guess)
+		System.out.println("Too large");
+	if ( x> guess)
+		System.out.println("Too small");
+
+
+
+}
+
+}
