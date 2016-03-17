@@ -12,7 +12,7 @@ public class GuessANumber{
 	System.out.print("Guess a number:");
 	guess = scanner.nextInt();
 	
-	if ( guess < 1 || guess > 9)
+	if ( guess < 1 || guess > 10)
 	{	System.out.println(" error input. crashing....");
 		System.exit(0);	
 	}
