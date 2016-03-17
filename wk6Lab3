@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+
+public class GuessANumber2{
+	public static void main(String args []){
+
+	Scanner scanner = new Scanner(System.in);
+
+	int computerNum;
+	int guess;
+	
+	System.out.print("Guess a number(from 1-10):");
+	guess = scanner.nextInt();
+	
+	computerNum = 1 +(int)(Math.random() * 10);
+		System.out.print(computerNum);
+
+	if ( guess == computerNum)
+		System.out.println("you guessed right!!");
+	
+	else if ( guess < computerNum)
+		System.out.println("that's too low!!");
+	else
+		System.out.println("that's too high!");
+
+
+}
+
+}
