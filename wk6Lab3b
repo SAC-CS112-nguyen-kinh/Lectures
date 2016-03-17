@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class MaxNum{
+	public static void main(String args []){
+
+	Scanner scanner = new Scanner(System.in);
+
+	int x;
+	int y;
+	int max;
+	
+	System.out.print("Guess a number:");
+	x = scanner.nextInt();
+	
+	y = 1 +(int)(Math.random() * 10);
+		System.out.println("the computer guessed: " +y);
+	
+	
+	if (x== y)
+		System.out.println(" right!");
+	else
+	{		max = (x > y) ? x : y;
+			System.out.println("you guessed it wrong");
+}
+}
+
+}
