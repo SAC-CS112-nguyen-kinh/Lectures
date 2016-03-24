@@ -1,0 +1,23 @@
+import javax.swing.JOptionPane;
+
+
+public class GuessANumber2{
+	public static void main(String args []){
+	int guess, computerNum;
+	computerNum = 1 +(int)(Math.random() * 10);
+	guess=
+		Integer.parseInt(JOptionPane.showInputDialog("Guess a number(from 1-10):"));
+	
+	
+	if ( guess == computerNum)
+		JOptionPane.showMessageDialog(null, "you guessed right!!");
+	
+	else if ( guess < computerNum)
+		JOptionPane.showMessageDialog(null, "that's too low!!");
+	else
+		JOptionPane.showMessageDialog(null, "that's too high!");
+
+
+}
+
+}
