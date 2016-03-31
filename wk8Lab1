@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class GuessAge
+{
+	public static void main(String [] args)
+{
+		
+	Scanner in = new Scanner(System.in);
+		
+		System.out.println("what is your name?");
+		String yourName = in.nextLine();
+		System.out.println("what is your birth year?");
+		int birthYear = in.nextInt();
+		int year = 2016 - birthYear;
+
+		System.out.println("Hello," + yourName + ",you are " + year+ " year-old today!");
+ 
+
+
+
+}
+
+
+
+}
