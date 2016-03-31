@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class GuessAge2
+{
+	public static void main(String [] args)
+{
+		
+	Scanner in = new Scanner(System.in);
+		
+		System.out.println("what is your name?");
+		String yourName = in.nextLine();
+		System.out.println("what is your birth year?");
+		int birthYear = in.nextInt();
+		int year = 2016 - birthYear;
+
+		System.out.println("Hello," + yourName + ",you are " + year+ " year-old today!");
+ 		
+		System.out.println();
+	
+		if (year < 21)
+		{	System.out.println("you are not legal to drink!");
+			System.out.println();
+			int rightYear = 21 - year;
+			System.out.println(" you need to wait "+ rightYear + " more year(s) to drink");
+		
+		}	
+		else 
+			System.out.println("here is your shot!");
+
+
+
+}
+
+
+
+}
